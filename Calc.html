@@ -21,15 +21,12 @@
             function calcBksp(){
                 var cvalue = document.getElementById("inpt").value;
                 lvalue = cvalue.substring(0,cvalue.length - 1);
-                //alert(lvalue);
                 document.getElementById("inpt").value = lvalue;
             }
             function addPlusMinus(){
                 var cvalue = document.getElementById("inpt").value;
                 var sign = cvalue.substr(0,1);
                 var nval = cvalue.substr(1);
-                //alert(sign);
-                //alert(nval);
                 if(sign == "+"){
                     cvalue = "-" + nval;
                 }
@@ -60,14 +57,12 @@
                 var svalue = document.getElementById("inpt").value;
                 cvalue = svalue + document.getElementById("dvd").value;
                 document.getElementById("inpt").value = cvalue;
-                //alert(cvalue);
             }
 
             function addTimes(){
                 var svalue = document.getElementById("inpt").value;
                 cvalue = svalue + document.getElementById("tm").value;
                 document.getElementById("inpt").value = cvalue;
-                //alert(cvalue);
             }
 
             //Operand Functions
