@@ -1,1 +1,3 @@
-*.html lingust-language=JavaScript
+*.html lingusit-language=JavaScript
+*.css linguist-detectable=false
+*.html linguist-detectable=false
