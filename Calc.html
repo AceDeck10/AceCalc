@@ -15,14 +15,17 @@
             var cvalue;
             
             //Calc Functions
+            //Clear
             function calcClear(){
                 document.getElementById("inpt").value = "";
             }
+            //Backsace
             function calcBksp(){
                 var cvalue = document.getElementById("inpt").value;
                 lvalue = cvalue.substring(0,cvalue.length - 1);
                 document.getElementById("inpt").value = lvalue;
             }
+            //Plus or minus
             function addPlusMinus(){
                 var cvalue = document.getElementById("inpt").value;
                 var sign = cvalue.substr(0,1);
