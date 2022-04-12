@@ -1,2 +1,2 @@
-*.html lingusit-language=JavaScript
+*.html lingusit-detectable=false
 *.css linguist-detectable=false
