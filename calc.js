@@ -1,5 +1,11 @@
-// A script to get input into a textfield
-// and evaluate calculation
+/**************************************
+* AceCalc calculator script.
+* Gets input into a html text field
+* and evaluates calculation
+*
+* Author@ Austine D. Odhiambo
+*
+***************************************/
 
 var cvalue;
 
