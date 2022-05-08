@@ -14,7 +14,7 @@ var cvalue;
 function calcClear(){
     document.getElementById("inpt").value = "";
 }
-//Backsace
+//Backspace
 function calcBksp(){
     var cvalue = document.getElementById("inpt").value;
     lvalue = cvalue.substring(0,cvalue.length - 1);
