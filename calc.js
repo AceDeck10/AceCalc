@@ -3,7 +3,7 @@
 * Gets input into a html text field
 * and evaluates calculation
 *
-* Author@ Austine D. Odhiambo
+* @author Austine D. Odhiambo
 *
 ***************************************/
 
