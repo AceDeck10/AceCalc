@@ -14,12 +14,14 @@ var cvalue;
 function calcClear(){
     document.getElementById("inpt").value = "";
 }
+
 //Backspace
 function calcBksp(){
     var cvalue = document.getElementById("inpt").value;
     lvalue = cvalue.substring(0,cvalue.length - 1);
     document.getElementById("inpt").value = lvalue;
 }
+
 //Plus or minus
 function addPlusMinus(){
     var cvalue = document.getElementById("inpt").value;
@@ -42,13 +44,12 @@ function addMinus(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("min").value;
     document.getElementById("inpt").value = cvalue;
-    //alert(cvalue);
 }
+
 function addPlus(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("pl").value;
     document.getElementById("inpt").value = cvalue;
-    //alert(cvalue);
 }
 
 function addDivide(){
@@ -69,51 +70,61 @@ function addOne(){
     cvalue = svalue + document.getElementById("one").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addTwo(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("two").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addThree(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("th").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addFour(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue+document.getElementById("fr").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addFive(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("fv").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addSix(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue  +document.getElementById("six").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addSeven(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("sv").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addEight(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("et").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addNine(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("nn").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addZero(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("ze").value;
     document.getElementById("inpt").value = cvalue;
 }
+
 function addDot(){
     var svalue = document.getElementById("inpt").value;
     cvalue = svalue + document.getElementById("dot").value;
@@ -141,6 +152,7 @@ function evaluateExpression(){
             oplast = false;
         }
     }
+
     // Calculate the expression
     cvalue = parseFloat(n[0]);
     for (var j = 0; j < op.length; j++) {
