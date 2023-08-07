@@ -11,3 +11,5 @@ Open the calc.html file using browser.
 i)  Binding html buttons to Javascript functions.
 
 ii) Modifying text in a html text input field programatically.
+
+iii)
